@@ -1,0 +1,18 @@
+piloto = ['Lewis', 'Leclerc', 'Lando']
+print('Lista:', piloto)
+print('\n')
+piloto[1] = 'Sainz'
+print('Lista:', piloto)
+print('\n')
+piloto.append('Vettel') #Adiciona no final da lista
+print('Lista:', piloto)
+print('\n')
+piloto.insert(0, 'Niki')
+print('Lista:', piloto)
+print('\n')
+del piloto[4]
+print('Lista:', piloto)
+print('\n')
+piloto.remove('Niki')
+print('Lista:', piloto)
+print('\n')
