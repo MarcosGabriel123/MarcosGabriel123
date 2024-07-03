@@ -1,0 +1,10 @@
+ex = []
+academia = []
+
+for i in range (3):
+    ex.append(input('Digite o nome do exercicio:'))
+    ex.append(int(input('Digite a quantidade de séries:')))
+    ex.append(int(input('digite a quantidade de repetições:')))
+    academia.append(ex[:])
+    ex.clear()
+print(academia)
